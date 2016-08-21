@@ -2,7 +2,7 @@
 
 namespace Exfriend\Rotator;
 
-class RotatingProxy implements RotatingProxyInterface
+class RotatingProxy
 {
     /**
      * @var string
