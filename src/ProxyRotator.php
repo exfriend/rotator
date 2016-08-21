@@ -43,7 +43,7 @@ class ProxyRotator
         return $this->workingProxies;
     }
 
-    protected function getWorkingProxy()
+    public function getWorkingProxy()
     {
         $waitingProxies = [ ];
         while ( $this->hasEnoughWorkingProxies() )
