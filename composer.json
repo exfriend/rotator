@@ -1,0 +1,19 @@
+{
+    "name": "exfriend/rotator",
+    "description": "Proxy Rotator inspired by @paslandau",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4":{
+        "Exfriend\\Rotator\\" : "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "Vladislav Otchenashev",
+            "email": "i@zlad.tk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
